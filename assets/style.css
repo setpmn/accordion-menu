@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    height: 100vh;
+    padding: 30px 40px;
+    background-color: #fff;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.title>i {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+}
+
+.title>div {
+    padding: 20px;
+    width: 100%;
+    transition: .3s;
+    opacity: 1;
+}
+
+.hidden {
+    position: absolute;
+    opacity: 0 !important;
+    z-index: -2;
+}
